@@ -13,4 +13,4 @@ To get started with this repository, follow the steps below:
 2. Run multipass:
 
    ```shell
-   multipass launch --mount --cloud-init userdata.yml
+   multipass launch --cloud-init userdata.yml
