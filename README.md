@@ -13,4 +13,9 @@ To get started with this repository, follow the steps below:
 2. Run multipass:
 
    ```shell
+   cd cloudinit-ansible-multipass-demo
    multipass launch --cloud-init userdata.yml
+3. Connect to a shell in the container and check ufw rules
+   ```shell
+   multipass shell <name-of-container>
+   sudo cat /etc/ufw/user.rules
