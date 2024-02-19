@@ -1,4 +1,4 @@
-# Ansible1 Repository
+# cloudinit-ansible-multipass-demo Repository
 
 This repository contains an demo Ansible playbook and cloudinit to demonstrate using both technologies hand in hand.
 
