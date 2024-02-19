@@ -9,7 +9,7 @@ To get started with this repository, follow the steps below:
 1. Clone the repository to your local machine:
 
    ```shell
-   git clone <repository-url>
+   git clone https://github.com/mikedixson/cloudinit-ansible-multipass-demo.git
 2. Run multipass:
 
    ```shell
