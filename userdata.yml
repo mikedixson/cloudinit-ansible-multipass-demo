@@ -1,7 +1,15 @@
 #cloud-config
 package_upgrade: true
-packages:
-  - ansible
+# packages:
+#   - ansible
   
-runcmd:
-  - sudo ansible-playbook /root/playbook.yaml
+ansible:
+  package_name: ansible
+  install_method: distro
+  pull:
+    url: https://github.com/mikedixson/cloudinit-ansible-multipass-demo.git
+    playbook_name: playbook.yaml
+
+# run_ansible:
+#   playbook_dir: /root
+#   playbook_name: playbook.yaml
