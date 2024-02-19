@@ -2,6 +2,12 @@
 
 This repository contains an demo Ansible playbook and cloudinit to demonstrate using both technologies hand in hand.
 
+This uses [Multipass](https://multipass.run/) to spin up a slimline ubuntu image with a small [Cloudinit](https://cloudinit.readthedocs.io/en/latest/index.html) userdata file.
+
+This Cloudinit file installed ansible and then runs ansible-pull to pull down the playbook.yml file and runs it.
+
+The playbook.yml sets up some basic ufw rules as a demo but this playbook could run much more of course.
+
 ## Getting Started
 
 To get started with this repository, follow the steps below:
